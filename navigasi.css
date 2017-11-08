@@ -1,0 +1,62 @@
+body {
+	color: #666666;
+	background-color: #f9f8f6;
+	background-image: url("kayu.jpg");
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;}
+	
+.wrapper {
+	width: 900px;
+	margin: auto auto 50px auto;
+	border: 30px solid #000000;
+	background-color: #ffffff;
+	padding: 30px;
+}
+.judul{
+	color : white;
+	font-size: 72px;
+	background-color: black;
+	padding: 50px;
+	text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    border-right:1px solid #mmm;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #ffcc00;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #255;
+}
+p{
+	text-align: justify;
+}
+.active {
+background-color: #b30000;}	
+}
+
+img{
+	margin: 25px;
+}
+
